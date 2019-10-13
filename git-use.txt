@@ -1,3 +1,19 @@
-git add .
-git commit -m "ID commit"
-git push
+basic use (
+
+ 1 git add .
+ 1.1 git st
+ 2 git commit -m "ID commit"
+ 3 git push ,
+ 
+ 1 git branch name "分支"
+ 2 git checkout name "进入分支"
+ 2.1 git checkout -b name "快速创建"
+ 3 git push --set-upstream origin name "远端分支"
+ 4 git merge name "合并分支"
+)
+
+to update (
+
+ git pull
+
+)
